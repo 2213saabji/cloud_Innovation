@@ -3,9 +3,11 @@
 A Movie Library application built with React. It renders the Movies with filtering and sorting process and also login process is there with some prebuild login credentails for more authentication.
 
 <h4>Frontend Features</h4>
-- Filter and sorting on the basis of rating
-- User authentication (login)
-- Responsive UI
+<ul>
+<li>Filter and sorting on the basis of rating</li>
+<li>User authentication (login)</li>
+<li>Responsive UI</li>
+</ul>
 
 Installation
 Clone the Frontend project repository:
