@@ -12,6 +12,7 @@ A Movie Library application built with React. It renders the Movies with filteri
 Installation
 Clone the Frontend project repository:
 git clone https://github.com/2213saabji/cloud_Innovation.git
+<h2>Hosted Link of Frontend => https://cloud-innovation-phi.vercel.app/ </h2>
 
 I have also make a backend file for getting the movie cards details
 
@@ -24,6 +25,7 @@ I have also make a backend file for getting the movie cards details
 Installation Backend File
 Clone the Backend project repository:
 git clone https://github.com/2213saabji/backendcloudinnovation.git
+<h2>Hosted Link of Backend => https://backendcloudinnovation.vercel.app/movies </h2>
 
 One Drive Video Link of the Website =>
 https://1drv.ms/v/s!AqWjVhd19afx1eEegfVVSxo3Aj1bVw?e=KCv0MD
