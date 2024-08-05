@@ -1,4 +1,4 @@
-Movie Library
+**Movie Library**
 Description
 A Movie Library application built with React. It renders the Movies with filtering and sorting process and also login process is there with some prebuild login credentails for more authentication.
 
@@ -24,7 +24,7 @@ git clone https://github.com/2213saabji/backendcloudinnovation.git
 One Drive Video Link of the Website =>
 https://1drv.ms/v/s!AqWjVhd19afx1eEegfVVSxo3Aj1bVw?e=KCv0MD
 
-Test Credentails for login 
+**Test Credentails for login **
 
 Email: eve.holt@reqres.in
 Password: pistol
