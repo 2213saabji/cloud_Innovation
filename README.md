@@ -16,8 +16,10 @@ git clone https://github.com/2213saabji/cloud_Innovation.git
 I have also make a backend file for getting the movie cards details
 
 <h4>Backend Features</h4>
-Node js
-Express
+<ul>
+<li>Node js</li>
+<li>Express</li>
+</ul>
 
 Installation Backend File
 Clone the Backend project repository:
@@ -28,6 +30,8 @@ https://1drv.ms/v/s!AqWjVhd19afx1eEegfVVSxo3Aj1bVw?e=KCv0MD
 
 <h2>Test Credentails for login</h2>
 
-Email: eve.holt@reqres.in
-Password: pistol
+<ul>
+<li>Email: eve.holt@reqres.in</li>
+<li>Password: pistol</li>
+</ul>
 
