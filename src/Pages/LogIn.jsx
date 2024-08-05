@@ -16,7 +16,7 @@ const LogIn = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    dispatch(login(credentials,navigate));
+    dispatch(login(credentials, navigate));
   };
 
   if (isAuth) {
@@ -24,26 +24,42 @@ const LogIn = () => {
   }
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="email"
-          name="email"
-          value={credentials.email}
-          onChange={handleChange}
-          placeholder="Email"
-        />
-        <input
-          type="password"
-          name="password"
-          value={credentials.password}
-          onChange={handleChange}
-          placeholder="Password"
-        />
-        <button type="submit" disabled={isLoading}>
-          {isLoading ? 'Logging in...' : 'Log In'}
-        </button>
-      </form>
+    <div style={{
+      height: "90vh",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+    }}>
+      <div style={{
+        border: "2px solid black",
+        padding: "20px",
+        maxWidth: "400px",
+        textAlign: "center"
+      }}>
+        <h1>Login</h1>
+        <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '10px', alignItems: "center", marginTop: "50px" }}>
+          <input
+            type="email"
+            name="email"
+            value={credentials.email}
+            onChange={handleChange}
+            placeholder="Email"
+            style={{ width: "300px", height: "25px" }}
+          />
+          <input
+            type="password"
+            name="password"
+            value={credentials.password}
+            onChange={handleChange}
+            placeholder="Password"
+            style={{ width: "300px", height: "25px" }}
+
+          />
+          <button type="submit" disabled={isLoading} style={{ width: "100px", height: "30px" }} >
+            {isLoading ? 'Logging in...' : 'Log In'}
+          </button>
+        </form>
+      </div>
     </div>
   );
 };

@@ -13,7 +13,7 @@ const MovieDetail = () => {
   }
 
   return (
-    <div>
+    <div style={{textAlign:"center",paddingTop:"10px"}}>
       <img src={movie.Poster} alt={movie.Title} />
       <h2>{movie.Title}</h2>
       <p>{movie.Year}</p>

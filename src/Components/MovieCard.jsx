@@ -10,7 +10,6 @@ const MovieCard = ({ movie }) => {
       return;
     }
     navigate("/login");
-    
   }
   return (
     <div className="movie-card" onClick={()=>{checkLogin()}}>

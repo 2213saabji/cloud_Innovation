@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HomePage from "./HomePage";
 import LoginPage from "./LogIn";
 import MovieDetail from "./MovieDetail";
+import { useSelector, useDispatch } from 'react-redux';
+import { fetchMovies } from '../Redux/MovieReducer/action';
 const MainRoutes = () => {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchMovies());
+  }, [dispatch]);
   return (
     <Router>
       <Routes>
