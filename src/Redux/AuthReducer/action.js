@@ -10,5 +10,6 @@ export const login = (credentials,navigate) => async (dispatch) => {
     navigate("/")
   } catch (error) {
     dispatch({ type: LOGIN_FAILURE });
+    alert("Login and Password didn't Match");
   }
 };
